@@ -1,0 +1,36 @@
+# DiscordJS Node Basic Bot
+
+A simple Discord bot built with [discord.js](https://discord.js.org/) v14("14.19.3") and Node.js.  
+This bot demonstrates how to set up a basic slash command (`/ping`) and handle interactions.
+
+---
+
+## Features
+
+- Slash command `/ping` that replies with the bot's current websocket ping.
+- Uses Discord API v10 and modern discord.js practices.
+- Easy to understand and extend.
+
+---
+
+## Prerequisites
+
+- [Node.js](https://nodejs.org/) (latest stable version recommended)
+- A Discord bot token from the [Discord Developer Portal](https://discord.com/developers/applications)
+
+---
+
+## Setup & Installation
+
+```bash
+# 1. Clone this repository
+
+# 2. Install dependencies
+npm install discord.js dotenv
+
+# 3. Check the `.env` file and make the necessary changes
+
+# 4. Change directory to where the bot is and run it:
+cd discordjs-node-basic-bot
+node MyBot.js
+
