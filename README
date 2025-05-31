@@ -5,6 +5,10 @@ This bot demonstrates how to set up a basic slash command (`/ping`) and handle i
 
 ---
 
+> ⚠️ This project uses ES6 modules (`import/export`). Make sure `"type": "module"` is set in your `package.json`.
+
+---
+
 ## Features
 
 - Slash command `/ping` that replies with the bot's current websocket ping.
