@@ -15,7 +15,7 @@ async function Ping(interaction) {
     } catch (error) {
         // If there's an error, send a temporary error message
         const msg = await interaction.reply({
-            flags: 1 << 5, // Ephemeral message
+            flags: 1 << 6, // Ephemeral message
             content: "Unexpected error",
         });
 
