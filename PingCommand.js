@@ -6,7 +6,7 @@ async function Ping(interaction) {
 
         // Send a temporary ephemeral reply to the user with the ping
         const msg = await interaction.reply({
-            flags: 1 << 5, // Ephemeral message: only the user can see it
+            flags: 1 << 6, // Ephemeral message: only the user can see it
             content: `Ping: **${ping}**ms.`,
         });
 
