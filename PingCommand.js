@@ -10,8 +10,6 @@ async function Ping(interaction) {
             content: `Ping: **${ping}**ms.`,
         });
 
-        // Delete the message after 3 seconds
-        setTimeout(() => msg.delete(), 3000);
     } catch (error) {
         // If there's an error, send a temporary error message
         const msg = await interaction.reply({
@@ -19,8 +17,6 @@ async function Ping(interaction) {
             content: "Unexpected error",
         });
 
-        // Delete the error message after 3 seconds
-        setTimeout(() => msg.delete(), 3000);
     }
 }
 
